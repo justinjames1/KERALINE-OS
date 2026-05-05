@@ -10,7 +10,6 @@ start:
     lodsb              
     or al, al       
     jz halt
-    jnz nohlt 
     int 0x10           
 
 title db "Kernaline os bootloader.", 0 
@@ -24,7 +23,6 @@ title db "Kernaline os bootloader.", 0
     lodsb              
     or al, al       
     jz halt            
-    jnz nohlt 
     int 0x10           
 Jmp start
 

@@ -6,13 +6,13 @@ org 0x7C00
     mov si, title    
     mov ah, 0x0e       
 
-start:
+
     lodsb              
     or al, al       
     jz halt
     int 0x10           
 
-title db "Kernaline os bootloader.", 0 
+title db "Kernaline os bootloader."
 
 
 
@@ -24,10 +24,8 @@ title db "Kernaline os bootloader.", 0
     or al, al       
     jz halt            
     int 0x10           
-Jmp start
 
-
-select db "select a drive..", 0 
+select db "select a drive.."
 
 halt:
 hlt

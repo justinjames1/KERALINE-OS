@@ -19,6 +19,12 @@ mov ds, ax
 
 
 .next:
+
+mov al, 0x0D
+int 0x10
+mov al, 0x0A
+int 0x10
+
     mov si, select       
     mov ah, 0x0e       
 

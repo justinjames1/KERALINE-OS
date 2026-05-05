@@ -10,8 +10,9 @@ org 0x7C00
     lodsb              
     or al, al       
     jz halt
-    int 0x10           
-
+    int 0x10   
+    inc al,
+    int 0x10 
 
 
 

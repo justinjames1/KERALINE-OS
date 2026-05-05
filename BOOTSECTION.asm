@@ -17,13 +17,14 @@ mov ds, ax
     int 0x10        
     jmp .title_loop   
 
-
-.next:
-
 mov al, 0x0D
 int 0x10
 mov al, 0x0A
 int 0x10
+
+.next:
+
+
 
     mov si, select       
     mov ah, 0x0e       

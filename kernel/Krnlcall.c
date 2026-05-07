@@ -6,14 +6,13 @@ return 0;}
 #ifndef Krnlcall_H  
 #define Krnlcall_H
 
-int memcall;
+
 void memcall()
 {memcall();}
 
-int intterupt;
-void intterupt(){intterupt = 0;
-if (intterupt == 1){
-int A = 1}}
+void intterupt(){
+intt(); 
+}
 
 int diskacess;
 void disk(){diskacess = 0;

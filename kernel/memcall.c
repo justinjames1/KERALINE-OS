@@ -3,6 +3,8 @@
 int main(){
 void memcall()
   {//mem code here
+int pointer1;
+int pointer2;
   }
 pid;
 pid = 0;

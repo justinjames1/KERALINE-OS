@@ -12,7 +12,7 @@ void memcall()
 {memcall();}
 
 void intterupt(){
-intt();}
+int();}
 
 int diskacess;
 void disk(){
@@ -21,5 +21,5 @@ diskwrite();}
 if (diskstat == 1){
 diskread();}
 }}
+}
 #endif
-return 0;}

@@ -21,7 +21,7 @@ void panic(){
 printf("=============\n");
 printf("KERNEL PANIC.\n");
 printf("=============\n");
-printf("ERROR 0X000000001\n");}
+printf("ERROR \n");}
 void alloc(){
 int mem[i];
 printf("allocated %d\n",i);}

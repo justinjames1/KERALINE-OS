@@ -1,6 +1,6 @@
 #include "Kernel/intterupt.h"
 #include "Kernel/memcall.h"
-#include "Kernel/disk.h"
+#include "Kernel/diskmanage.h"
 int main(){
 
 #ifndef Krnlcall_H  

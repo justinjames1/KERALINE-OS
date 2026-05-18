@@ -1,1 +1,4 @@
-this is where you install drivers or custom code a form of drivers to make the os compatiable witn them.
+this is where you install drivers or custom code
+a form of drivers to make the os compatiable witn them.
+for example like a enviroment to put driver Code in, and its only for C.
+as most of the kernel is desgined in c.

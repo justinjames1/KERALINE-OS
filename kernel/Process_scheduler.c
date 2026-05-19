@@ -1,5 +1,6 @@
 #include "memcall.h"
 int main(){
+memcall();
 int pid = 0;
 void PID()
 {pid ++;}

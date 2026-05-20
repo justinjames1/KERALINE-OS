@@ -7,9 +7,10 @@ echo [take the files out of the kernaline os folder]
 apk add unzip
 apk add nasm
 apk add gcc
-unzip 
+echo preparing files for compileing.....
+mv KERALINE-OS/root/ /root/
 mv Kernel/root /root/
-
+echo comepleted preping files for compilation.
 
 nasm -f bin BOOTSECTION.asm -o BOOTSECTION.bin
 cc Commandprompt.c -o Commandprompt.bin

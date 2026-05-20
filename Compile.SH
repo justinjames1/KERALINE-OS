@@ -8,8 +8,8 @@ apk add unzip
 apk add nasm
 apk add gcc
 echo preparing files for compileing.....
-mv KERALINE-OS/root/ /root/
-mv Kernel/root /root/
+mv /root/KERALINE-OS /root/
+mv /root/Kernel/root /root/
 echo comepleted preping files for compilation.
 
 nasm -f bin BOOTSECTION.asm -o BOOTSECTION.bin

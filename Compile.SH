@@ -15,7 +15,7 @@ nasm -f bin BOOTSECTION.asm -o BOOTSECTION.bin
 cc Diskmanage.h -o Diskmanage.bin
 cc Diskmanage_code.c -o Diskmanage_code.bin
 cc Intterupt.h -o Intterupt.bin
-cc Interrupt_code.c -o Interrupt_code.bimn
+cc Interrupt_code.c -o Interrupt_code.bin
 cc Memcall.h -o Memcall.bin
 cc Memcall_code.c -o Memcall_code.bim
 cc Panic.c -o Panic.bin

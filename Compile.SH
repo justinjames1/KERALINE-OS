@@ -20,6 +20,16 @@ cc Memcall.c -o Memcall.bin
 cc Panic.c -o Panic.bin
 cc Process_scheduler.c -o Process_scheduler.bin
 nasm -f bin VGAcontrol.asm -o VGAcontrol.bin
+
+
 echo =====================================
 echo sucessfully compiled Kernaline os code.
 echo =====================================
+echo now deleting unneeded os files....
+rm Commandprmot.c
+rm Diskmanage.c
+rm Interrupt.c
+rm Krnlcall.c
+rm Memcall.c
+rm Panic.c
+rm Process_scheduler.c

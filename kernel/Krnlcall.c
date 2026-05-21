@@ -1,5 +1,3 @@
-#ifndef Krnlcall_H  
-#define Krnlcall_H
 
 #include "kernel/Interrupt.h"
 #include "kernel/Memcall.h"
@@ -23,4 +21,3 @@ if (diskstat == 1){
 diskread();}
 }}
 }
-#endif

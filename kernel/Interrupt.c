@@ -1,5 +1,5 @@
-#ifndef intterupt_H  
-#define intterupt_H
+#ifndef Intterupt_H  
+#define Intterupt_H
 void intterupt(){
 } 
 #endif                

@@ -56,7 +56,7 @@ rm Krnlcall.c
 rm VGAcontrol.asm
 rm Commandprompt.c
 
-mv BOOTSECTION.bin /root/kernel
+
 mv Diskmanage.bin /root/kernel
 mv Diskmanage_code.bin /root/kernel
 mv Intterupt.bin /root/kernel
@@ -66,7 +66,7 @@ mv Memcall_code.bin /root/kernel
 mv Panic.bin /root/kernel
 mv Process_scheduler.bin /root/kernel
 mv Krnlcall.bin /root/kernel
-mv Commandprompt.bin /root/kernel
+
 
 echo =====================================
 echo sucessfully completed installation.

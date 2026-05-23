@@ -1,5 +1,5 @@
 //add memcall logic
-#include "kernel/Memcall.h"
+#include "Memcall.h"
 int main(){
 int memval;
 void Memcall()

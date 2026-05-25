@@ -2,7 +2,7 @@
 #include "Memcall.h"
 int main(){
 int Memval = 4096;
-void Memcall()
+void Memcall(void)
 {}
 }
 // logic of mem.

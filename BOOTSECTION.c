@@ -1,3 +1,5 @@
+int main(){
+asm ("
 org 0x7C00
 ;16 bit 
 
@@ -127,7 +129,7 @@ int 0x10
 
 halt:
 hlt
-jmp HWASG ;jump to kernel space code.
+;jmp HWASG jump to kernel space code. demo.
 
 beta db "BETA BUILD. DO NOT SHARE IMAGES OF A BETA BUILD..", 0
 title db "Kernaline os bootloader.", 0
@@ -139,3 +141,4 @@ driveC db "drive C:", 0
 
 Times 510 db 0
 db 0x55, 0xaa 
+");}

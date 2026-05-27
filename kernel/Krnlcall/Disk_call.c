@@ -1,4 +1,4 @@
-#include "kernel/Disk/Diskmanage.h"
+#include "../Disk/Diskmanage.h"
 int main()
 {
 if (diskstat == 0)

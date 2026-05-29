@@ -141,5 +141,5 @@ driveA db "drive A:", 0
 driveB db "drive B:", 0
 driveC db "drive C:", 0
 
-Times 510-($-$$) db 0 ; how many times do i have to fix your errors? -Wasgyst
+Times 510-($-$$) db 0 ; how many times do i have to fix your errors? -Wasgyst | the compiler screamed because of this btw thats why. -justin
 db 0x55, 0xaa 
